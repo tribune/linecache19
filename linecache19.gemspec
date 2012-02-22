@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
 #  s.executables       = %w( #{name} )
   s.description       = "Do not use"
   s.extensions << "ext/trace_nums/extconf.rb"
+
+  s.add_dependency('ruby_core_source', [">= 0.1.4"])
 end
